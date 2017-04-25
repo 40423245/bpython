@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-19T11:00:00+08:00</updated><entry><title>2017/04/19 期中協同查驗與自評</title><link href="./midterm-collaboration-evaluation.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-19:./midterm-collaboration-evaluation.html</id><summary type="html">&lt;p&gt;以下為協同產品設計實習 2017 Spring 期中考週的四個實習查驗題目. &lt;/p&gt;
 
 
+&lt;p&gt;&lt;img src="./../data/W9/Fourbar Example.png" width="480" /&gt;&lt;/p&gt;
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -17,6 +18,7 @@ brython(1);
 }
 &lt;/script&gt;
 
+&lt;h2&gt;Length=50&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=50 路徑--&gt;
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
@@ -65,6 +67,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
+&lt;h2&gt;Length=45&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=45 路徑--&gt;
 
 &lt;canvas id="fourbar2" width="600" height="400"&gt;&lt;/canvas&gt;
@@ -113,6 +116,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
+&lt;h2&gt;Length=40&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=40 路徑--&gt;
 
 &lt;canvas id="fourbar3" width="600" height="400"&gt;&lt;/canvas&gt;
@@ -161,6 +165,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
+&lt;h2&gt;Length=35&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=35 路徑--&gt;
 
 &lt;canvas id="fourbar4" width="600" height="400"&gt;&lt;/canvas&gt;
@@ -209,6 +214,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
+&lt;h2&gt;Length=30&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=30 路徑--&gt;
 
 &lt;canvas id="fourbar5" width="600" height="400"&gt;&lt;/canvas&gt;
@@ -257,6 +263,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
+&lt;h2&gt;Length=25&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=25 路徑--&gt;
 
 &lt;canvas id="fourbar6" width="600" height="400"&gt;&lt;/canvas&gt;
@@ -305,6 +312,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
+&lt;h2&gt;Length=20&lt;/h2&gt;
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point Length=20 路徑--&gt;
 
 &lt;canvas id="fourbar7" width="600" height="400"&gt;&lt;/canvas&gt;

@@ -162,8 +162,8 @@
                 <p>以下為協同產品設計實習 2017 Spring 期中考週的四個實習查驗題目. </p>
 
 
+<h3>(二) 四連桿機構協同 Trace Point 查驗</h3>
 <p><img src="./../data/W9/Fourbar Example.png" width="480" /></p>
-<p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script type="text/javascript" 
@@ -520,6 +520,40 @@ ctx.strokeStyle = "blue"
 ctx.stroke()
 ctx.closePath()
 </script>
+
+<h3>(四) 分組協同零件展示</h3>
+<p><link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../data/madeleine/src/lib/stats.js"></script>
+<script src="./../data/madeleine/src/lib/detector.js"></script>
+<script src="./../data/madeleine/src/lib/three.min.js"></script>
+<script src="./../data/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/Fourbar Walker.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+></script>
+
+<script src="./../data/w9/loader.js"></script>
+
+<script src="./../data/w9/stl.js"></script>
+
+<div>
+select stl file: <input type="file" id="file" /> or drop stl file
+</div>
+
+<div id="view"></div>
             </div>
             <!-- /.entry-content -->
         </article>

@@ -55,7 +55,7 @@
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 <v t="yen.20170120212350.1" a="E"><vh>programs</vh>
-<v t="leo.20170429191349.1"><vh>Brython</vh>
+<v t="leo.20170429191349.1" a="E"><vh>Brython</vh>
 <v t="leo.20170429191349.2" a="E"><vh>@path ../data/py</vh>
 <v t="leo.20170429191349.3"><vh>@clean script1.py</vh>
 <v t="leo.20170429191349.4"><vh>script1 declarations</vh></v>
